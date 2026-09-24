@@ -1,6 +1,6 @@
 # Smaller lift actuator: force and packaging screen
 
-The FS0307 is already laid on its 8.3 mm side above the drive motors. A lighter servo does not necessarily reduce height: the smallest relevant case dimension matters. Changing the actuator also changes shaft position, supports and the cam/yoke geometry. The current CAD still uses FS0307; alternatives below are research candidates, not validated replacements.
+The FS0307 is already laid on its 8.3 mm side above the drive motors. A lighter servo does not necessarily reduce height: the smallest relevant case dimension matters. Changing the actuator also changes shaft position, supports and the cam/yoke geometry. This comparison was prepared for the iteration 7 FS0307 layout. Iteration 8 now incorporates KST X06 into nominal CAD; alternatives below retain their original sizing context. Hardware strength and performance remain unvalidated.
 
 ## Retraction load
 
@@ -22,7 +22,7 @@ Guide resistance and efficiency are assumptions, not measurements. The factors a
 
 | Candidate | Case dimensions | Torque / force information | Assessment |
 |---|---|---|---|
-| FEETECH FS0307, current | 20×8.3×17.3 mm | 49.0 mN·m stall at 4.8 V | Strong nominal margin; stall is not continuous torque. |
+| FEETECH FS0307, earlier baseline | 20×8.3×17.3 mm | 49.0 mN·m stall at 4.8 V | Strong nominal margin; stall is not continuous torque. |
 | AGFRC C017CLS | 13.5×6.2×16 mm | 6.37 mN·m stall at 3.7 V; 7.35 at 4.2 V | Smaller but marginal: moderate scenario approaches stall and cautious scenario exceeds it. Do not select without measured loads. Needs a regulated 3.6–4.2 V supply. |
 | KST X06 | 20×7×16.6 mm | Manufacturer linked sheet gives 40 mN·m rated at 6 V; 150 mN·m stall | Best documented servo candidate for a modest reduction. Case thickness saves 1.3 mm; 19.8 mm overall height is only stack arithmetic, not checked CAD. Check delivered revision, shaft and tabs. |
 | Pololu 2359, 700:1 sub-micro planetary gearmotor | Ø6×21 mm body, shaft additional | 90 RPM no-load at 6 V; gearbox instantaneous torque limit ~24.5 mN·m | Promising custom actuator, potentially 2.3 mm less body thickness than FS0307. Requires separate H-bridge, position/end sensing, mounting, cam coupling and holding strategy. No full-layout fit claim. |
