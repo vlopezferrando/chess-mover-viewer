@@ -1,19 +1,19 @@
-# Chess mover viewer — Ø43 mm candidate
+# Chess mover — KST X06 thin version
 
 Open https://vlopezferrando.github.io/chess-mover-viewer/
 
-Iteration 7 repacks the Ø45 concept into **43 mm diameter and 21.1 mm installed height**, including optional plastic enclosure. It retains 13 mm wheels, a 10×2 mm N42 magnet, 6 mm lift and FS0307 servo. Target speed is 150 mm/s, not validated performance.
+Iteration 8: **Ø43 mm × 20.0 mm installed height**, 1.1 mm thinner than the preceding 21.1 mm version. KST X06 servo with mounting tabs, custom extended-hub crank, 10×2 mm N42 magnet, full 6 mm lift, 13 mm wheels and optional plastic enclosure. Target horizontal speed is 150 mm/s, unvalidated.
 
-Use **Show / hide enclosure**, or separate lower-shell and lid checkboxes. Openings accommodate wheels, upper/lower contacts, camera, magnet and coils. Drag to orbit, scroll to zoom; use the lift slider and bottom view.
+Use **Show / hide enclosure**, individual layer checkboxes, lift slider, orbit/zoom and bottom view. The lower shell and lid have openings for wheels, contacts, camera, magnet and coils.
 
-Earlier viewers: [Ø45 mm](45mm.html), [Ø40 mm](40mm.html).
+Earlier versions: [Ø43 / FS0307](43mm-fs0307.html), [Ø45](45mm.html), [Ø40](40mm.html).
 
-The reduced diameter needs relocated coils, contacts, magnet and actuator, a smaller PCB and modified yoke/pin geometry. It saves 8.7% plan area versus Ø45 without reducing height. The same layout at Ø42 still intersects its enclosure. Ø42 is not ruled out after further redesign.
+The KST case is 7 mm thick; the complete mover saves 1.1 mm rather than the full 1.3 mm case difference. A stepped magnet tray and shortened rear motor saddle preserve retraction clearance. The front tray floor is 0.4 mm thick, with 0.2 mm nominal motor clearance. The camera lens is now 11.9 mm above the floor. At 19.8 mm overall height the tray loses clearance and the yoke intersects a rear coil; at 19.7 mm it also overlaps a drive motor.
 
-**Only 0.12 mm nominal radial clearance remains at a contact sleeve.** This is a compact packaging candidate, not fabrication-ready hardware. Ø45 is more forgiving for a first physical build. Actual part measurements and manufacturing tolerances are essential.
+The KST V6 rated torque at 6 V is about 39 mN·m, compared with a cautious assumed retraction-load scenario of 12.5 mN·m. These are preliminary sizing figures, not measured hardware performance. [KST product/specification](https://kstservos.com/collections/x-series/products/x06-v6-0-hv-micro-digital-metal-gear-glider-1-8kg-torque-servo-motor). [Actuator comparison](ACTUATOR_STUDY.md).
 
-Checks passed: valid connected parts, static overlaps, circular containment, installed height, 23 sampled lift poses, 26 gear phases, and camera center optical path. STEP reimport: 46 valid solids, 43×43×21.1 mm. Viewer controls tested with DOM/WebGL stubs; preview renders visually inspected. No real-browser rendering test.
+Nominal checks passed: valid connected parts, static overlaps, Ø43 containment, height, 23 sampled lift poses, 26 gear phases and camera center path. STEP reimport gives 46 valid solids, 43×43×20 mm bounds. Viewer controls tested using DOM/WebGL stubs; static previews inspected. No real-browser rendering test.
 
-Read the [smaller lift actuator study](ACTUATOR_STUDY.md) for manufacturer sources and force-based sizing. Alternatives are research candidates and have not replaced the servo in this CAD.
+This remains a packaging prototype. KST geometry is drawing-derived, not manufacturer STEP. The hub bore does not model a working spline: matching horn/insert, screws and retention remain to be designed. Structural strength, tolerances, real camera focus/FOV, electronics/routing, contact loading, magnetic chassis interactions, release, 150 mm/s motion, accuracy and tipping remain unqualified. Tightest listed radial shell gap remains about 0.12 mm. Not fabrication-ready.
 
-Magnetic chassis effects, physical release, speed, accuracy, tipping, fasteners, structural strength, camera field of view/focus, electrical/RF design and production tolerances remain unqualified. Self-contained HTML/WebGL snapshot hosted through GitHub Pages.
+Self-contained HTML/WebGL snapshot hosted with GitHub Pages.
