@@ -1,0 +1,62 @@
+{
+  "passed": true,
+  "approach": [
+    {
+      "distance_from_dock_mm": 0,
+      "collisions": []
+    },
+    {
+      "distance_from_dock_mm": 0.5,
+      "collisions": []
+    },
+    {
+      "distance_from_dock_mm": 1,
+      "collisions": []
+    },
+    {
+      "distance_from_dock_mm": 2,
+      "collisions": []
+    },
+    {
+      "distance_from_dock_mm": 5,
+      "collisions": []
+    },
+    {
+      "distance_from_dock_mm": 10,
+      "collisions": []
+    },
+    {
+      "distance_from_dock_mm": 20,
+      "collisions": []
+    },
+    {
+      "distance_from_dock_mm": 30,
+      "collisions": []
+    },
+    {
+      "distance_from_dock_mm": 45,
+      "collisions": []
+    }
+  ],
+  "contact_alignment": [
+    {
+      "pole": "GND",
+      "nominal_surface_gap_mm": 0.0
+    },
+    {
+      "pole": "5 V",
+      "nominal_surface_gap_mm": 0.0
+    }
+  ],
+  "pad_size_mm": [
+    3,
+    3
+  ],
+  "tip_diameter_mm": 1.2,
+  "full_tip_alignment_allowance_mm": 0.9,
+  "limits": [
+    "Fixed nominal compressed contact envelopes. Free spring extension, preload, contact bounce and navigation are not simulated.",
+    "Approach sampled along +Y to seated pose; no yaw/tolerance sweep.",
+    "Dock is external to mover footprint; it needs accessible perimeter parking space."
+  ]
+}

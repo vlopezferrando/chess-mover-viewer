@@ -1,0 +1,4 @@
+mover_height_mm,battery_to_servo_rail_mm,static_collision_count,passes_025mm_rail_gap
+25.2,0.25,0,True
+25.0,0.05,0,False
+24.8,-0.15,2,False

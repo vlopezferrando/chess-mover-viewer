@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "solids": 52,
+  "width_mm": 43.0,
+  "length_mm": 43.0,
+  "height_mm": 25.2,
+  "zmin_mm": 0.0,
+  "valid": true,
+  "outside_43mm_mm3": 0.0,
+  "method": "Each solid checked separately; interior bounding boxes certify the other solids. Avoids unreliable whole-compound booleans at touching component boundaries.",
+  "checked_solids": [
+    {
+      "index": 13,
+      "outside_mm3": 0.0
+    },
+    {
+      "index": 14,
+      "outside_mm3": 0.0
+    },
+    {
+      "index": 15,
+      "outside_mm3": 0.0
+    },
+    {
+      "index": 16,
+      "outside_mm3": 0.0
+    },
+    {
+      "index": 17,
+      "outside_mm3": 0.0
+    },
+    {
+      "index": 18,
+      "outside_mm3": 0.0
+    },
+    {
+      "index": 48,
+      "outside_mm3": 0.0
+    },
+    {
+      "index": 50,
+      "outside_mm3": 0.0
+    },
+    {
+      "index": 51,
+      "outside_mm3": 0.0
+    }
+  ]
+}

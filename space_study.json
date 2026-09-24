@@ -1,0 +1,106 @@
+{
+  "reference_cell": "Honcell HCG431528HP20",
+  "old_20mm_layout_battery_collisions": [
+    {
+      "part": "KST X06 with mounting tabs",
+      "overlap_mm3": 1316.992562565753
+    },
+    {
+      "part": "Servo case rail -15.5",
+      "overlap_mm3": 4.790000000000011
+    },
+    {
+      "part": "Servo case rail 4.5",
+      "overlap_mm3": 4.790000000000018
+    }
+  ],
+  "height_trials": [
+    {
+      "mover_height_mm": 25.2,
+      "battery_to_servo_rail_mm": 0.25,
+      "static_hits": [],
+      "invalid_or_disconnected": [],
+      "poses": [
+        {
+          "travel_deg": 55,
+          "hits": []
+        },
+        {
+          "travel_deg": 110,
+          "hits": []
+        }
+      ],
+      "passes_nominal_and_025mm_rail_gap": true
+    },
+    {
+      "mover_height_mm": 25.0,
+      "battery_to_servo_rail_mm": 0.05,
+      "static_hits": [],
+      "invalid_or_disconnected": [],
+      "poses": [
+        {
+          "travel_deg": 55,
+          "hits": []
+        },
+        {
+          "travel_deg": 110,
+          "hits": []
+        }
+      ],
+      "passes_nominal_and_025mm_rail_gap": false
+    },
+    {
+      "mover_height_mm": 24.8,
+      "battery_to_servo_rail_mm": -0.15,
+      "static_hits": [
+        {
+          "a": "Servo case rail -15.5",
+          "b": "100 mAh LiPo cell \u2014 cycled envelope",
+          "volume_mm3": 2.2275000000000316
+        },
+        {
+          "a": "Servo case rail 4.5",
+          "b": "100 mAh LiPo cell \u2014 cycled envelope",
+          "volume_mm3": 2.2275000000000316
+        }
+      ],
+      "invalid_or_disconnected": [],
+      "poses": [
+        {
+          "travel_deg": 55,
+          "hits": []
+        },
+        {
+          "travel_deg": 110,
+          "hits": []
+        }
+      ],
+      "passes_nominal_and_025mm_rail_gap": false
+    }
+  ],
+  "scope": "Local shelf layout, original motor/camera positions and full 6 mm lift. Not an exhaustive packing search. Thickness includes supplier cycling growth, not a full tolerance stack.",
+  "capacity_comparison": [
+    {
+      "mAh": 100,
+      "supplier": "Honcell",
+      "cell_mm": [
+        29,
+        15.5,
+        4.4
+      ],
+      "cycled_thickness_mm": 4.75,
+      "implemented": true
+    },
+    {
+      "mAh": 150,
+      "supplier": "Blade BLH4210",
+      "cell_mm": [
+        42,
+        12,
+        5
+      ],
+      "implemented": false,
+      "reason": "42 x 12 mm footprint diagonal 43.68 mm exceeds 41.4 mm shell inner diameter; not interchangeable. A shorter 150 mAh cell needs separate sourcing/validation."
+    }
+  ]
+}

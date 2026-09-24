@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "draw_calls": 1011,
+  "finite_uniform_checks": 8193,
+  "controls": [
+    "up",
+    "down",
+    "midstroke",
+    "battery inspection",
+    "dock visibility",
+    "dock approach",
+    "gears",
+    "transmission",
+    "assembly",
+    "explode",
+    "views",
+    "orbit",
+    "zoom"
+  ],
+  "browser_rendering_tested": false
+}
