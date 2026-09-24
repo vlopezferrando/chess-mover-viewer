@@ -1,15 +1,19 @@
-# Chess mover viewer — Ø45 mm version
+# Chess mover viewer — Ø43 mm candidate
 
 Open https://vlopezferrando.github.io/chess-mover-viewer/
 
-Iteration 6: nominal 45 mm diameter including optional plastic enclosure, 21.1 mm installed height between conducting plates (previously 25.2 mm), 13 mm wheels, 10×2 mm N42 magnet and 6 mm lift. Target speed is 150 mm/s, not validated performance.
+Iteration 7 repacks the Ø45 concept into **43 mm diameter and 21.1 mm installed height**, including optional plastic enclosure. It retains 13 mm wheels, a 10×2 mm N42 magnet, 6 mm lift and FS0307 servo. Target speed is 150 mm/s, not validated performance.
 
-Use **Show / hide enclosure**, or the separate lower-shell and lid checkboxes. Wheel, upper/lower contact, camera, magnet and coil openings are modeled. Bottom view shows the camera opening. Drag to orbit, scroll to zoom, and use the lift slider to inspect motion.
+Use **Show / hide enclosure**, or separate lower-shell and lid checkboxes. Openings accommodate wheels, upper/lower contacts, camera, magnet and coils. Drag to orbit, scroll to zoom; use the lift slider and bottom view.
 
-The earlier Ø40 mm viewer is preserved at [40mm.html](40mm.html).
+Earlier viewers: [Ø45 mm](45mm.html), [Ø40 mm](40mm.html).
 
-This is a nominal packaging concept, not fabrication-ready hardware. Smaller magnet and shorter travel contribute to the height saving; diameter alone does not explain it. The magnet choice depends on friction and needs physical validation. Provisional camera, servo shaft, contact and electronics envelopes require real-part verification. Fasteners, tolerances, structural strength, camera field of view/focus, magnetic effects of the chassis, release, speed, accuracy and tipping are not qualified.
+The reduced diameter needs relocated coils, contacts, magnet and actuator, a smaller PCB and modified yoke/pin geometry. It saves 8.7% plan area versus Ø45 without reducing height. The same layout at Ø42 still intersects its enclosure. Ø42 is not ruled out after further redesign.
 
-Nominal geometry checks passed: part validity/connectedness, static overlaps, circular containment, height, 23 sampled lift poses, 26 gear phases, and camera center optical path. Viewer controls were tested with DOM/WebGL stubs; no real-browser rendering test was performed. Preview renders were inspected.
+**Only 0.12 mm nominal radial clearance remains at a contact sleeve.** This is a compact packaging candidate, not fabrication-ready hardware. Ø45 is more forgiving for a first physical build. Actual part measurements and manufacturing tolerances are essential.
 
-Self-contained HTML/WebGL viewer: no installation or account needed. GitHub Pages serves this static snapshot.
+Checks passed: valid connected parts, static overlaps, circular containment, installed height, 23 sampled lift poses, 26 gear phases, and camera center optical path. STEP reimport: 46 valid solids, 43×43×21.1 mm. Viewer controls tested with DOM/WebGL stubs; preview renders visually inspected. No real-browser rendering test.
+
+Read the [smaller lift actuator study](ACTUATOR_STUDY.md) for manufacturer sources and force-based sizing. Alternatives are research candidates and have not replaced the servo in this CAD.
+
+Magnetic chassis effects, physical release, speed, accuracy, tipping, fasteners, structural strength, camera field of view/focus, electrical/RF design and production tolerances remain unqualified. Self-contained HTML/WebGL snapshot hosted through GitHub Pages.
