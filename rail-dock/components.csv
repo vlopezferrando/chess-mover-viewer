@@ -1,0 +1,54 @@
+name,kind,source,note
+Right N20 motor,motor,Modified Pololu STEP,Motor winding/RPM unselected; shaft shortened.
+Right 31T motor pinion,gear,custom/provisional geometry,
+Right 31T wheel gear,gear,custom/provisional geometry,
+Right independent axle,shaft,custom/provisional geometry,
+Right 13 mm wheel,wheel,custom/provisional geometry,Custom wheel; 150 mm/s not validated
+Right outboard axle support,support,custom/provisional geometry,
+Left N20 motor,motor,Modified Pololu STEP,Motor winding/RPM unselected; shaft shortened.
+Left 31T motor pinion,gear,custom/provisional geometry,
+Left 31T wheel gear,gear,custom/provisional geometry,
+Left independent axle,shaft,custom/provisional geometry,
+Left 13 mm wheel,wheel,custom/provisional geometry,Custom wheel; 150 mm/s not validated
+Left outboard axle support,support,custom/provisional geometry,
+Front motor saddle and roof post,support,custom/provisional geometry,Thin nominal end saddle; retention and strength unresolved
+Servo cradle rail -1,support,custom/provisional geometry,Tabless servo uses a cradle; attachment and load path need detailed design
+Servo cradle rail 1,support,custom/provisional geometry,Tabless servo uses a cradle; attachment and load path need detailed design
+41 mm production PCB,pcb,custom/provisional geometry,Unrouted; separate pockets for battery and servo
+Coil 1,coil,custom/provisional geometry,Resonance not validated near metal components
+Coil 2,coil,custom/provisional geometry,Resonance not validated near metal components
+Coil 3,coil,custom/provisional geometry,Resonance not validated near metal components
+Coil 4,coil,custom/provisional geometry,Resonance not validated near metal components
+ESP32-S3 bare IC,electronics,custom/provisional geometry,
+Dual H-bridge allowance,electronics,custom/provisional geometry,
+Memory allowance,electronics,custom/provisional geometry,
+Charger protection and fuel-gauge area,power,custom/provisional geometry,"Reserved area, not a routed schematic"
+Boost converter and inductor allowance,power,custom/provisional geometry,Power/current/thermal qualification pending
+Camera sensor island,camera,custom/provisional geometry,
+Downward lens,camera,custom/provisional geometry,4 mm lens envelope retained; actual lens/focus not selected
+Camera FPC connector,flex,custom/provisional geometry,
+Camera ribbon,flex,custom/provisional geometry,
+Camera support -2.5,support,custom/provisional geometry,
+Camera support 2.5,support,custom/provisional geometry,
+100 mAh battery design envelope,battery,LiPol LPHD7214017 catalogue,Catalogue 17 x 14 x 7.2 mm; model adds .6 mm length/width and .8 mm thickness. Not supplier-certified tolerances.
+Battery termination allowance 6.6,battery_wire,custom/provisional geometry,Provisional 3 mm termination space; vendor lead/tab drawing required
+Battery termination allowance 12.6,battery_wire,custom/provisional geometry,Provisional 3 mm termination space; vendor lead/tab drawing required
+Insulating battery cradle,battery_mount,custom/provisional geometry,Nominal isolation and edge guards; fasteners/retention not finished
+KST X06N tabless servo,servo,KST X06N manufacturer dimensions,"Factory tabless X06N, not a cut-down X06. Cradle retention remains provisional."
+Rear lift guide -6.7,support,custom/provisional geometry,
+Guide roof anchor -6.7,support,custom/provisional geometry,
+Rear lift guide 6.7,support,custom/provisional geometry,
+Guide roof anchor 6.7,support,custom/provisional geometry,
+Rear lift crank,cam,custom/provisional geometry,6 mm over 110 degrees. Extended hub engages shaft envelope; 15T spline and retention screw require design.
+Captured rear pin,pin,custom/provisional geometry,
+Rear tray and captured yoke,lift,custom/provisional geometry,"Thin carrier, guides and pin retention still need structural design"
+N42 magnet 10 x 2,magnet,custom/provisional geometry,6 mm release conditional on Simulation 5 force/friction assumptions; 150 mm/s following not qualified
+Rail contact insulating carrier,battery_mount,Custom concept; contact and magnet not qualified,
+Dock contact GND,dockpad,Custom concept; contact and magnet not qualified,"Nominal compressed leaf + rounded-tip allowance (tip rendered square). Custom spring geometry, not a selected component."
+Dock lead route GND,battery_wire,Custom concept; contact and magnet not qualified,Insulated wire/flex allowance
+Dock contact 5 V,dockpad,Custom concept; contact and magnet not qualified,"Nominal compressed leaf + rounded-tip allowance (tip rendered square). Custom spring geometry, not a selected component."
+Dock lead route 5 V,battery_wire,Custom concept; contact and magnet not qualified,Insulated wire/flex allowance
+Recessed docking magnet 3 x 1 mm,retention,Custom concept; contact and magnet not qualified,"Axially magnetized toward wall; size is a packaging placeholder, pull force unverified."
+Dock magnet insulating pocket,battery_mount,Custom concept; contact and magnet not qualified,
+Optional lower plastic enclosure,shell,Custom concept; contact and magnet not qualified,
+Optional plastic lid,lid,Custom concept; contact and magnet not qualified,

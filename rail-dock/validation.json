@@ -1,0 +1,562 @@
+{
+  "invalid": [],
+  "disconnected": [],
+  "static_interferences": [],
+  "envelope": [
+    {
+      "part": "Right N20 motor",
+      "outside_43_mm3": 0,
+      "zmin": 0.8999998999999996,
+      "zmax": 10.900000100000169
+    },
+    {
+      "part": "Right 31T motor pinion",
+      "outside_43_mm3": 0,
+      "zmin": 2.6010673170681273,
+      "zmax": 9.198062858134055
+    },
+    {
+      "part": "Right 31T wheel gear",
+      "outside_43_mm3": 0,
+      "zmin": 3.201067317068127,
+      "zmax": 9.798062858134054
+    },
+    {
+      "part": "Right independent axle",
+      "outside_43_mm3": 0,
+      "zmin": 5.0,
+      "zmax": 8.0
+    },
+    {
+      "part": "Right 13 mm wheel",
+      "outside_43_mm3": 0,
+      "zmin": 0.0,
+      "zmax": 13.0
+    },
+    {
+      "part": "Right outboard axle support",
+      "outside_43_mm3": 0,
+      "zmin": 4.2,
+      "zmax": 18.599999999999998
+    },
+    {
+      "part": "Left N20 motor",
+      "outside_43_mm3": 0,
+      "zmin": 0.8999998999999996,
+      "zmax": 10.900000100000169
+    },
+    {
+      "part": "Left 31T motor pinion",
+      "outside_43_mm3": 0,
+      "zmin": 2.6010673170681273,
+      "zmax": 9.198062858134055
+    },
+    {
+      "part": "Left 31T wheel gear",
+      "outside_43_mm3": 0,
+      "zmin": 3.201067317068127,
+      "zmax": 9.798062858134054
+    },
+    {
+      "part": "Left independent axle",
+      "outside_43_mm3": 0,
+      "zmin": 5.0,
+      "zmax": 8.0
+    },
+    {
+      "part": "Left 13 mm wheel",
+      "outside_43_mm3": 0,
+      "zmin": 0.0,
+      "zmax": 13.0
+    },
+    {
+      "part": "Left outboard axle support",
+      "outside_43_mm3": 0,
+      "zmin": 4.2,
+      "zmax": 18.599999999999998
+    },
+    {
+      "part": "Front motor saddle and roof post",
+      "outside_43_mm3": 0,
+      "zmin": 0.8,
+      "zmax": 11.600000000000001
+    },
+    {
+      "part": "Servo cradle rail -1",
+      "outside_43_mm3": 0,
+      "zmin": 12.399999999999995,
+      "zmax": 18.599999999999998
+    },
+    {
+      "part": "Servo cradle rail 1",
+      "outside_43_mm3": 0,
+      "zmin": 12.4,
+      "zmax": 18.599999999999998
+    },
+    {
+      "part": "41 mm production PCB",
+      "outside_43_mm3": 0.0,
+      "zmin": 18.599999999999998,
+      "zmax": 20.2
+    },
+    {
+      "part": "Coil 1",
+      "outside_43_mm3": 0.0,
+      "zmin": 19.7,
+      "zmax": 20.7
+    },
+    {
+      "part": "Coil 2",
+      "outside_43_mm3": 0.0,
+      "zmin": 19.7,
+      "zmax": 20.7
+    },
+    {
+      "part": "Coil 3",
+      "outside_43_mm3": 0.0,
+      "zmin": 19.7,
+      "zmax": 20.7
+    },
+    {
+      "part": "Coil 4",
+      "outside_43_mm3": 0.0,
+      "zmin": 19.7,
+      "zmax": 20.7
+    },
+    {
+      "part": "ESP32-S3 bare IC",
+      "outside_43_mm3": 0,
+      "zmin": 17.599999999999998,
+      "zmax": 18.599999999999998
+    },
+    {
+      "part": "Dual H-bridge allowance",
+      "outside_43_mm3": 0,
+      "zmin": 17.599999999999998,
+      "zmax": 18.599999999999998
+    },
+    {
+      "part": "Memory allowance",
+      "outside_43_mm3": 0,
+      "zmin": 17.599999999999998,
+      "zmax": 18.599999999999998
+    },
+    {
+      "part": "Charger protection and fuel-gauge area",
+      "outside_43_mm3": 0,
+      "zmin": 17.2,
+      "zmax": 18.599999999999998
+    },
+    {
+      "part": "Boost converter and inductor allowance",
+      "outside_43_mm3": 0,
+      "zmin": 16.599999999999998,
+      "zmax": 18.599999999999998
+    },
+    {
+      "part": "Camera sensor island",
+      "outside_43_mm3": 0,
+      "zmin": 16.8,
+      "zmax": 17.400000000000002
+    },
+    {
+      "part": "Downward lens",
+      "outside_43_mm3": 0,
+      "zmin": 12.8,
+      "zmax": 16.8
+    },
+    {
+      "part": "Camera FPC connector",
+      "outside_43_mm3": 0,
+      "zmin": 17.799999999999997,
+      "zmax": 18.599999999999998
+    },
+    {
+      "part": "Camera ribbon",
+      "outside_43_mm3": 0,
+      "zmin": 17.4,
+      "zmax": 17.799999999999997
+    },
+    {
+      "part": "Camera support -2.5",
+      "outside_43_mm3": 0,
+      "zmin": 17.4,
+      "zmax": 18.599999999999998
+    },
+    {
+      "part": "Camera support 2.5",
+      "outside_43_mm3": 0,
+      "zmin": 17.4,
+      "zmax": 18.599999999999998
+    },
+    {
+      "part": "100 mAh battery design envelope",
+      "outside_43_mm3": 0,
+      "zmin": 11.6,
+      "zmax": 19.6
+    },
+    {
+      "part": "Battery termination allowance 6.6",
+      "outside_43_mm3": 0,
+      "zmin": 15.4,
+      "zmax": 15.700000000000001
+    },
+    {
+      "part": "Battery termination allowance 12.6",
+      "outside_43_mm3": 0,
+      "zmin": 15.4,
+      "zmax": 15.700000000000001
+    },
+    {
+      "part": "Insulating battery cradle",
+      "outside_43_mm3": 0,
+      "zmin": 11.2,
+      "zmax": 18.5
+    },
+    {
+      "part": "KST X06N tabless servo",
+      "outside_43_mm3": 0,
+      "zmin": 13.0,
+      "zmax": 20.0
+    },
+    {
+      "part": "Rear lift guide -6.7",
+      "outside_43_mm3": 0,
+      "zmin": 11.7,
+      "zmax": 19.599999999999998
+    },
+    {
+      "part": "Guide roof anchor -6.7",
+      "outside_43_mm3": 0,
+      "zmin": 18.599999999999998,
+      "zmax": 19.599999999999998
+    },
+    {
+      "part": "Rear lift guide 6.7",
+      "outside_43_mm3": 0,
+      "zmin": 11.7,
+      "zmax": 19.599999999999998
+    },
+    {
+      "part": "Guide roof anchor 6.7",
+      "outside_43_mm3": 0,
+      "zmin": 18.599999999999998,
+      "zmax": 19.599999999999998
+    },
+    {
+      "part": "Rear lift crank",
+      "outside_43_mm3": 0,
+      "zmin": 13.85,
+      "zmax": 19.15
+    },
+    {
+      "part": "Captured rear pin",
+      "outside_43_mm3": 0,
+      "zmin": 17.379128210302895,
+      "zmax": 18.679128210302892
+    },
+    {
+      "part": "Rear tray and captured yoke",
+      "outside_43_mm3": 0.0,
+      "zmin": 16.529128210302893,
+      "zmax": 20.7
+    },
+    {
+      "part": "N42 magnet 10 x 2",
+      "outside_43_mm3": 0,
+      "zmin": 18.7,
+      "zmax": 20.7
+    },
+    {
+      "part": "Rail contact insulating carrier",
+      "outside_43_mm3": 0,
+      "zmin": 6.0,
+      "zmax": 15.0
+    },
+    {
+      "part": "Dock contact GND",
+      "outside_43_mm3": 0.0,
+      "zmin": 7.0,
+      "zmax": 9.0
+    },
+    {
+      "part": "Dock lead route GND",
+      "outside_43_mm3": 0,
+      "zmin": 8.0,
+      "zmax": 18.599999999999998
+    },
+    {
+      "part": "Dock contact 5 V",
+      "outside_43_mm3": 0.0,
+      "zmin": 12.5,
+      "zmax": 14.5
+    },
+    {
+      "part": "Dock lead route 5 V",
+      "outside_43_mm3": 0,
+      "zmin": 13.5,
+      "zmax": 18.599999999999998
+    },
+    {
+      "part": "Recessed docking magnet 3 x 1 mm",
+      "outside_43_mm3": 0,
+      "zmin": 2.5,
+      "zmax": 5.5
+    },
+    {
+      "part": "Dock magnet insulating pocket",
+      "outside_43_mm3": 0,
+      "zmin": 2.0,
+      "zmax": 6.0
+    },
+    {
+      "part": "Optional lower plastic enclosure",
+      "outside_43_mm3": 0.0,
+      "zmin": 0.1999999,
+      "zmax": 20.4
+    },
+    {
+      "part": "Optional plastic lid",
+      "outside_43_mm3": 0.0,
+      "zmin": 20.4,
+      "zmax": 21.0
+    }
+  ],
+  "motion": [
+    {
+      "travel_deg": 0,
+      "interferences": []
+    },
+    {
+      "travel_deg": 5,
+      "interferences": []
+    },
+    {
+      "travel_deg": 10,
+      "interferences": []
+    },
+    {
+      "travel_deg": 15,
+      "interferences": []
+    },
+    {
+      "travel_deg": 20,
+      "interferences": []
+    },
+    {
+      "travel_deg": 25,
+      "interferences": []
+    },
+    {
+      "travel_deg": 30,
+      "interferences": []
+    },
+    {
+      "travel_deg": 35,
+      "interferences": []
+    },
+    {
+      "travel_deg": 40,
+      "interferences": []
+    },
+    {
+      "travel_deg": 45,
+      "interferences": []
+    },
+    {
+      "travel_deg": 50,
+      "interferences": []
+    },
+    {
+      "travel_deg": 55,
+      "interferences": []
+    },
+    {
+      "travel_deg": 60,
+      "interferences": []
+    },
+    {
+      "travel_deg": 65,
+      "interferences": []
+    },
+    {
+      "travel_deg": 70,
+      "interferences": []
+    },
+    {
+      "travel_deg": 75,
+      "interferences": []
+    },
+    {
+      "travel_deg": 80,
+      "interferences": []
+    },
+    {
+      "travel_deg": 85,
+      "interferences": []
+    },
+    {
+      "travel_deg": 90,
+      "interferences": []
+    },
+    {
+      "travel_deg": 95,
+      "interferences": []
+    },
+    {
+      "travel_deg": 100,
+      "interferences": []
+    },
+    {
+      "travel_deg": 105,
+      "interferences": []
+    },
+    {
+      "travel_deg": 110,
+      "interferences": []
+    }
+  ],
+  "gears": [
+    {
+      "side": 1,
+      "angle_deg": 0.0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": 1,
+      "angle_deg": 0.967741935483871,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": 1,
+      "angle_deg": 1.935483870967742,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": 1,
+      "angle_deg": 2.9032258064516125,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": 1,
+      "angle_deg": 3.870967741935484,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": 1,
+      "angle_deg": 4.838709677419355,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": 1,
+      "angle_deg": 5.806451612903225,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": 1,
+      "angle_deg": 6.774193548387097,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": 1,
+      "angle_deg": 7.741935483870968,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": 1,
+      "angle_deg": 8.709677419354838,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": 1,
+      "angle_deg": 9.67741935483871,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": 1,
+      "angle_deg": 10.64516129032258,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": 1,
+      "angle_deg": 11.61290322580645,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": -1,
+      "angle_deg": 0.0,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": -1,
+      "angle_deg": 0.967741935483871,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": -1,
+      "angle_deg": 1.935483870967742,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": -1,
+      "angle_deg": 2.9032258064516125,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": -1,
+      "angle_deg": 3.870967741935484,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": -1,
+      "angle_deg": 4.838709677419355,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": -1,
+      "angle_deg": 5.806451612903225,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": -1,
+      "angle_deg": 6.774193548387097,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": -1,
+      "angle_deg": 7.741935483870968,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": -1,
+      "angle_deg": 8.709677419354838,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": -1,
+      "angle_deg": 9.67741935483871,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": -1,
+      "angle_deg": 10.64516129032258,
+      "overlap_mm3": 0.0
+    },
+    {
+      "side": -1,
+      "angle_deg": 11.61290322580645,
+      "overlap_mm3": 0.0
+    }
+  ],
+  "optical_axis_obstructions": [],
+  "limits": [
+    "Provisional purchased-part envelopes, thin supports and enclosure seams. No assembly/fastener or tolerance validation.",
+    "Sampled lift and gear motion; no continuous swept-volume proof.",
+    "Camera centre ray only, not field of view or close focus.",
+    "No 150 mm/s dynamics, magnetic chassis effects or spring-preload qualification."
+  ],
+  "installed_height_mm": 21.0,
+  "case_height_mm": 20.8,
+  "stroke_mm": 6.0,
+  "passed": true
+}

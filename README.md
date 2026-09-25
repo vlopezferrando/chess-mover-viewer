@@ -12,3 +12,5 @@ Both retain 6 mm magnet travel, front charging pads and a separate dock. Camera 
 Earlier designs: [stacked battery](battery-stacked.html), [plate-powered KST](43mm-kst-plate.html), [43 mm FS0307](43mm-fs0307.html), [45 mm](45mm.html), [40 mm](40mm.html).
 
 Nominal CAD validation passed; electrical performance, supplier-specific cell packaging, docking retention, optical performance and fabrication tolerances remain unqualified.
+
+Latest: [coplanar mover with wall rails](https://vlopezferrando.github.io/chess-mover-viewer/rail-dock/). See [rail concept](RAIL_DOCK.md) and [body/PCB readiness](BUILD_READINESS.md).
