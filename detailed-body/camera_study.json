@@ -1,0 +1,48 @@
+[
+  {
+    "eye_mm": [
+      0,
+      -15.8,
+      12.8
+    ],
+    "assumed_fov_deg": [
+      60,
+      45
+    ],
+    "unclipped_floor_size_mm": [
+      14.780166891254417,
+      10.603867196751235
+    ],
+    "geometrically_visible_area_mm2": 110.10882898040269,
+    "visible_fraction": 0.7025520833333334,
+    "resolution": [
+      240,
+      240
+    ],
+    "method": "Perspective triangle silhouettes clipped between camera and floor; pixel-centre coverage. Camera body excluded; all other mover solids included. Straight rays, no optics qualification.",
+    "variant": "cad_12_rail_dock"
+  },
+  {
+    "eye_mm": [
+      0,
+      -15.8,
+      12.8
+    ],
+    "assumed_fov_deg": [
+      60,
+      45
+    ],
+    "unclipped_floor_size_mm": [
+      14.780166891254417,
+      10.603867196751235
+    ],
+    "geometrically_visible_area_mm2": 118.38869075882376,
+    "visible_fraction": 0.7553819444444445,
+    "resolution": [
+      240,
+      240
+    ],
+    "method": "Perspective triangle silhouettes clipped between camera and floor; pixel-centre coverage. Camera body excluded; all other mover solids included. Straight rays, no optics qualification.",
+    "variant": "cad_13_body"
+  }
+]

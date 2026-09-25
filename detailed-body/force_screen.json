@@ -1,0 +1,188 @@
+{
+  "method": "Analytical SI beam and lever screens, not FEA",
+  "magnetic_sample_N": 0.366,
+  "magnetic_source": "simulation_05_compact_magnet; 10 x 2 N42, 3.6 mm gap, 4 mm lateral offset, generic steel washer; mover steel omitted",
+  "guide_resistance_assumed_N": 0.1,
+  "load_factor": 3,
+  "efficiency_assumed": 0.5,
+  "lift_torque_screen_mNm": 12.500557523993109,
+  "servo_bed_midspan_I_mm4": 8.748,
+  "previous_two_rib_I_mm4": 3.2169824561403506,
+  "servo_shelf_load_N": 1.5745197,
+  "rows": [
+    {
+      "part": "Servo bed: stepped simply supported beam",
+      "E_GPa": 1.0,
+      "stiffness_multiplier": 1,
+      "load_N": 1.5745197,
+      "mover_mass_g": null,
+      "deflection_mm": 0.023084378310635305,
+      "stress_MPa": 0.7410933773148148,
+      "assumed_deflection_budget_mm": 0.05,
+      "within_budget": true
+    },
+    {
+      "part": "Servo bed: stepped simply supported beam",
+      "E_GPa": 1.0,
+      "stiffness_multiplier": 0.5,
+      "load_N": 1.5745197,
+      "mover_mass_g": null,
+      "deflection_mm": 0.04616875662127061,
+      "stress_MPa": 1.4821867546296297,
+      "assumed_deflection_budget_mm": 0.05,
+      "within_budget": true
+    },
+    {
+      "part": "Axle bridge: each of two cantilever arms",
+      "E_GPa": 1.0,
+      "stiffness_multiplier": 1,
+      "load_N": 0.36774937499999993,
+      "mover_mass_g": 30.0,
+      "deflection_mm": 0.00964940051020408,
+      "stress_MPa": 1.1257633928571424,
+      "assumed_deflection_budget_mm": 0.05,
+      "within_budget": true
+    },
+    {
+      "part": "Axle bridge: each of two cantilever arms",
+      "E_GPa": 1.0,
+      "stiffness_multiplier": 1,
+      "load_N": 0.5516240625,
+      "mover_mass_g": 45.0,
+      "deflection_mm": 0.01447410076530612,
+      "stress_MPa": 1.688645089285714,
+      "assumed_deflection_budget_mm": 0.05,
+      "within_budget": true
+    },
+    {
+      "part": "Axle bridge: each of two cantilever arms",
+      "E_GPa": 1.0,
+      "stiffness_multiplier": 1,
+      "load_N": 0.7354987499999999,
+      "mover_mass_g": 60.0,
+      "deflection_mm": 0.01929880102040816,
+      "stress_MPa": 2.251526785714285,
+      "assumed_deflection_budget_mm": 0.05,
+      "within_budget": true
+    },
+    {
+      "part": "Servo bed: stepped simply supported beam",
+      "E_GPa": 1.5,
+      "stiffness_multiplier": 1,
+      "load_N": 1.5745197,
+      "mover_mass_g": null,
+      "deflection_mm": 0.015389585540423533,
+      "stress_MPa": 0.7410933773148148,
+      "assumed_deflection_budget_mm": 0.05,
+      "within_budget": true
+    },
+    {
+      "part": "Servo bed: stepped simply supported beam",
+      "E_GPa": 1.5,
+      "stiffness_multiplier": 0.5,
+      "load_N": 1.5745197,
+      "mover_mass_g": null,
+      "deflection_mm": 0.030779171080847066,
+      "stress_MPa": 1.4821867546296297,
+      "assumed_deflection_budget_mm": 0.05,
+      "within_budget": true
+    },
+    {
+      "part": "Axle bridge: each of two cantilever arms",
+      "E_GPa": 1.5,
+      "stiffness_multiplier": 1,
+      "load_N": 0.36774937499999993,
+      "mover_mass_g": 30.0,
+      "deflection_mm": 0.006432933673469386,
+      "stress_MPa": 1.1257633928571424,
+      "assumed_deflection_budget_mm": 0.05,
+      "within_budget": true
+    },
+    {
+      "part": "Axle bridge: each of two cantilever arms",
+      "E_GPa": 1.5,
+      "stiffness_multiplier": 1,
+      "load_N": 0.5516240625,
+      "mover_mass_g": 45.0,
+      "deflection_mm": 0.009649400510204081,
+      "stress_MPa": 1.688645089285714,
+      "assumed_deflection_budget_mm": 0.05,
+      "within_budget": true
+    },
+    {
+      "part": "Axle bridge: each of two cantilever arms",
+      "E_GPa": 1.5,
+      "stiffness_multiplier": 1,
+      "load_N": 0.7354987499999999,
+      "mover_mass_g": 60.0,
+      "deflection_mm": 0.012865867346938772,
+      "stress_MPa": 2.251526785714285,
+      "assumed_deflection_budget_mm": 0.05,
+      "within_budget": true
+    },
+    {
+      "part": "Servo bed: stepped simply supported beam",
+      "E_GPa": 2.5,
+      "stiffness_multiplier": 1,
+      "load_N": 1.5745197,
+      "mover_mass_g": null,
+      "deflection_mm": 0.00923375132425412,
+      "stress_MPa": 0.7410933773148148,
+      "assumed_deflection_budget_mm": 0.05,
+      "within_budget": true
+    },
+    {
+      "part": "Servo bed: stepped simply supported beam",
+      "E_GPa": 2.5,
+      "stiffness_multiplier": 0.5,
+      "load_N": 1.5745197,
+      "mover_mass_g": null,
+      "deflection_mm": 0.01846750264850824,
+      "stress_MPa": 1.4821867546296297,
+      "assumed_deflection_budget_mm": 0.05,
+      "within_budget": true
+    },
+    {
+      "part": "Axle bridge: each of two cantilever arms",
+      "E_GPa": 2.5,
+      "stiffness_multiplier": 1,
+      "load_N": 0.36774937499999993,
+      "mover_mass_g": 30.0,
+      "deflection_mm": 0.003859760204081632,
+      "stress_MPa": 1.1257633928571424,
+      "assumed_deflection_budget_mm": 0.05,
+      "within_budget": true
+    },
+    {
+      "part": "Axle bridge: each of two cantilever arms",
+      "E_GPa": 2.5,
+      "stiffness_multiplier": 1,
+      "load_N": 0.5516240625,
+      "mover_mass_g": 45.0,
+      "deflection_mm": 0.005789640306122448,
+      "stress_MPa": 1.688645089285714,
+      "assumed_deflection_budget_mm": 0.05,
+      "within_budget": true
+    },
+    {
+      "part": "Axle bridge: each of two cantilever arms",
+      "E_GPa": 2.5,
+      "stiffness_multiplier": 1,
+      "load_N": 0.7354987499999999,
+      "mover_mass_g": 60.0,
+      "deflection_mm": 0.007719520408163264,
+      "stress_MPa": 2.251526785714285,
+      "assumed_deflection_budget_mm": 0.05,
+      "within_budget": true
+    }
+  ],
+  "qualified_for_powered_use": false,
+  "limitations": [
+    "E values are sensitivity assumptions, not a chosen resin datasheet. No allowable strength/safety factor is established.",
+    "Supports and beam load sharing are idealized. Holes, notches, layer direction, creep, assembly preload and glue are not solved.",
+    "Half-stiffness cases represent uncertain load sharing/cutouts, not a calculated correction.",
+    "0.05 mm deflection budget is a provisional design target, not guaranteed gear backlash or magnetic positioning accuracy.",
+    "Shelf bears on motor shims; actual clamping/contact reaction distribution needs testing.",
+    "Thread pullout, guide socket strength, tray/crank strength and docking retention are not qualified."
+  ]
+}

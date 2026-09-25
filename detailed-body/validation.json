@@ -1,0 +1,542 @@
+{
+  "build_source_sha256": "2df2caf67d86c894e33269bc1f662b3568c851f9160c8c98fcc54d1259e74bd6",
+  "invalid": [],
+  "disconnected": [],
+  "static": [],
+  "thread_engagement": [
+    {
+      "a": "Screw-fastened lid",
+      "b": "M1.6 x 16 underside screw 1",
+      "volume_mm3": 3.9171733399447737
+    },
+    {
+      "a": "Screw-fastened lid",
+      "b": "M1.6 x 16 underside screw 2",
+      "volume_mm3": 3.9171733399447737
+    },
+    {
+      "a": "Screw-fastened lid",
+      "b": "M1.6 x 16 underside screw 3",
+      "volume_mm3": 3.917173339944773
+    }
+  ],
+  "motion": [
+    {
+      "degrees": 0,
+      "interferences": []
+    },
+    {
+      "degrees": 10,
+      "interferences": []
+    },
+    {
+      "degrees": 20,
+      "interferences": []
+    },
+    {
+      "degrees": 30,
+      "interferences": []
+    },
+    {
+      "degrees": 40,
+      "interferences": []
+    },
+    {
+      "degrees": 50,
+      "interferences": []
+    },
+    {
+      "degrees": 60,
+      "interferences": []
+    },
+    {
+      "degrees": 70,
+      "interferences": []
+    },
+    {
+      "degrees": 80,
+      "interferences": []
+    },
+    {
+      "degrees": 90,
+      "interferences": []
+    },
+    {
+      "degrees": 100,
+      "interferences": []
+    },
+    {
+      "degrees": 110,
+      "interferences": []
+    }
+  ],
+  "containment": [
+    {
+      "name": "Right N20 motor",
+      "outside_mm3": 0,
+      "zmin": 0.8999998999999996,
+      "zmax": 10.900000100000169
+    },
+    {
+      "name": "Right 31T motor pinion",
+      "outside_mm3": 0,
+      "zmin": 2.6010673170681273,
+      "zmax": 9.198062858134055
+    },
+    {
+      "name": "Right 31T wheel gear",
+      "outside_mm3": 0,
+      "zmin": 3.201067317068127,
+      "zmax": 9.798062858134054
+    },
+    {
+      "name": "Right independent axle",
+      "outside_mm3": 0,
+      "zmin": 5.0,
+      "zmax": 8.0
+    },
+    {
+      "name": "Right 13 mm wheel",
+      "outside_mm3": 0,
+      "zmin": 0.0,
+      "zmax": 13.0
+    },
+    {
+      "name": "Left N20 motor",
+      "outside_mm3": 0,
+      "zmin": 0.8999998999999996,
+      "zmax": 10.900000100000169
+    },
+    {
+      "name": "Left 31T motor pinion",
+      "outside_mm3": 0,
+      "zmin": 2.6010673170681273,
+      "zmax": 9.198062858134055
+    },
+    {
+      "name": "Left 31T wheel gear",
+      "outside_mm3": 0,
+      "zmin": 3.201067317068127,
+      "zmax": 9.798062858134054
+    },
+    {
+      "name": "Left independent axle",
+      "outside_mm3": 0,
+      "zmin": 5.0,
+      "zmax": 8.0
+    },
+    {
+      "name": "Left 13 mm wheel",
+      "outside_mm3": 0,
+      "zmin": 0.0,
+      "zmax": 13.0
+    },
+    {
+      "name": "41 mm production PCB",
+      "outside_mm3": 0.0,
+      "zmin": 18.599999999999998,
+      "zmax": 20.2
+    },
+    {
+      "name": "Coil 1",
+      "outside_mm3": 0,
+      "zmin": 19.7,
+      "zmax": 20.7
+    },
+    {
+      "name": "Coil 2",
+      "outside_mm3": 0,
+      "zmin": 19.7,
+      "zmax": 20.7
+    },
+    {
+      "name": "Coil 3",
+      "outside_mm3": 0,
+      "zmin": 19.7,
+      "zmax": 20.7
+    },
+    {
+      "name": "Coil 4",
+      "outside_mm3": 0,
+      "zmin": 19.7,
+      "zmax": 20.7
+    },
+    {
+      "name": "ESP32-S3 bare IC",
+      "outside_mm3": 0,
+      "zmin": 17.599999999999998,
+      "zmax": 18.599999999999998
+    },
+    {
+      "name": "Dual H-bridge allowance",
+      "outside_mm3": 0,
+      "zmin": 17.599999999999998,
+      "zmax": 18.599999999999998
+    },
+    {
+      "name": "Memory allowance",
+      "outside_mm3": 0,
+      "zmin": 17.599999999999998,
+      "zmax": 18.599999999999998
+    },
+    {
+      "name": "Charger protection and fuel-gauge area",
+      "outside_mm3": 0,
+      "zmin": 17.2,
+      "zmax": 18.599999999999998
+    },
+    {
+      "name": "Boost converter and inductor allowance",
+      "outside_mm3": 0,
+      "zmin": 16.599999999999998,
+      "zmax": 18.599999999999998
+    },
+    {
+      "name": "Camera sensor island",
+      "outside_mm3": 0,
+      "zmin": 16.8,
+      "zmax": 17.400000000000002
+    },
+    {
+      "name": "Downward lens",
+      "outside_mm3": 0,
+      "zmin": 12.8,
+      "zmax": 16.8
+    },
+    {
+      "name": "Camera FPC connector",
+      "outside_mm3": 0,
+      "zmin": 17.799999999999997,
+      "zmax": 18.599999999999998
+    },
+    {
+      "name": "Camera ribbon",
+      "outside_mm3": 0,
+      "zmin": 17.4,
+      "zmax": 17.799999999999997
+    },
+    {
+      "name": "100 mAh battery design envelope",
+      "outside_mm3": 0,
+      "zmin": 12.1,
+      "zmax": 20.1
+    },
+    {
+      "name": "Battery termination allowance 6.6",
+      "outside_mm3": 0,
+      "zmin": 15.9,
+      "zmax": 16.200000000000003
+    },
+    {
+      "name": "Battery termination allowance 12.6",
+      "outside_mm3": 0,
+      "zmin": 15.9,
+      "zmax": 16.200000000000003
+    },
+    {
+      "name": "KST X06N tabless servo",
+      "outside_mm3": 0,
+      "zmin": 13.0,
+      "zmax": 20.0
+    },
+    {
+      "name": "Dock contact GND",
+      "outside_mm3": 0.0,
+      "zmin": 7.0,
+      "zmax": 9.0
+    },
+    {
+      "name": "Dock lead route GND",
+      "outside_mm3": 0,
+      "zmin": 8.0,
+      "zmax": 18.599999999999998
+    },
+    {
+      "name": "Dock contact 5 V",
+      "outside_mm3": 0.0,
+      "zmin": 12.5,
+      "zmax": 14.5
+    },
+    {
+      "name": "Dock lead route 5 V",
+      "outside_mm3": 0,
+      "zmin": 13.5,
+      "zmax": 18.599999999999998
+    },
+    {
+      "name": "Recessed docking magnet 3 x 1 mm",
+      "outside_mm3": 0,
+      "zmin": 2.5,
+      "zmax": 5.5
+    },
+    {
+      "name": "Rear lift crank",
+      "outside_mm3": 0,
+      "zmin": 13.85,
+      "zmax": 19.15
+    },
+    {
+      "name": "Captured rear pin",
+      "outside_mm3": 0,
+      "zmin": 17.379128210302895,
+      "zmax": 18.679128210302892
+    },
+    {
+      "name": "Rear tray and captured yoke",
+      "outside_mm3": 0.0,
+      "zmin": 16.529128210302893,
+      "zmax": 20.7
+    },
+    {
+      "name": "N42 magnet 10 x 2",
+      "outside_mm3": 0,
+      "zmin": 18.7,
+      "zmax": 20.7
+    },
+    {
+      "name": "Lower chassis with motor saddles",
+      "outside_mm3": 0.0,
+      "zmin": 0.19999989999999995,
+      "zmax": 15.0
+    },
+    {
+      "name": "Removable upper equipment carrier",
+      "outside_mm3": 0.0,
+      "zmin": 10.999999999999996,
+      "zmax": 20.2000001
+    },
+    {
+      "name": "Screw-fastened lid",
+      "outside_mm3": 0.0,
+      "zmin": 15.0,
+      "zmax": 21.0
+    },
+    {
+      "name": "M1.6 x 16 underside screw 1",
+      "outside_mm3": 0.0,
+      "zmin": 2.4,
+      "zmax": 20.0
+    },
+    {
+      "name": "M1.6 x 16 underside screw 2",
+      "outside_mm3": 0.0,
+      "zmin": 2.4,
+      "zmax": 20.0
+    },
+    {
+      "name": "M1.6 x 16 underside screw 3",
+      "outside_mm3": 0,
+      "zmin": 2.4,
+      "zmax": 20.0
+    },
+    {
+      "name": "Servo compression pad -16",
+      "outside_mm3": 0,
+      "zmin": 20.0,
+      "zmax": 20.2
+    },
+    {
+      "name": "Servo compression pad 0",
+      "outside_mm3": 0,
+      "zmin": 20.0,
+      "zmax": 20.2
+    },
+    {
+      "name": "Motor shim (-8, -6.17)",
+      "outside_mm3": 0,
+      "zmin": 10.9,
+      "zmax": 11.0
+    },
+    {
+      "name": "Motor shim (-8, 6.17)",
+      "outside_mm3": 0,
+      "zmin": 10.9,
+      "zmax": 11.0
+    },
+    {
+      "name": "Motor shim (8, -6.17)",
+      "outside_mm3": 0,
+      "zmin": 10.9,
+      "zmax": 11.0
+    },
+    {
+      "name": "Motor shim (8, 6.17)",
+      "outside_mm3": 0,
+      "zmin": 10.9,
+      "zmax": 11.0
+    },
+    {
+      "name": "Anti-tip glide 1",
+      "outside_mm3": 0,
+      "zmin": 0.1,
+      "zmax": 0.6
+    },
+    {
+      "name": "Anti-tip glide 2",
+      "outside_mm3": 0,
+      "zmin": 0.1,
+      "zmax": 0.6
+    },
+    {
+      "name": "Anti-tip glide 3",
+      "outside_mm3": 0.0,
+      "zmin": 0.1,
+      "zmax": 0.6
+    },
+    {
+      "name": "Rear lift guide -6.7",
+      "outside_mm3": 0,
+      "zmin": 11.7,
+      "zmax": 19.599999999999998
+    },
+    {
+      "name": "Rear lift guide 6.7",
+      "outside_mm3": 0,
+      "zmin": 11.7,
+      "zmax": 19.599999999999998
+    }
+  ],
+  "tool_access": [
+    {
+      "index": 1,
+      "hits": []
+    },
+    {
+      "index": 2,
+      "hits": []
+    },
+    {
+      "index": 3,
+      "hits": []
+    }
+  ],
+  "insertion": [
+    {
+      "case": "servo-lift module into separate carrier",
+      "above_seat_mm": 0,
+      "hits": []
+    },
+    {
+      "case": "servo-lift module into separate carrier",
+      "above_seat_mm": 0.5,
+      "hits": []
+    },
+    {
+      "case": "servo-lift module into separate carrier",
+      "above_seat_mm": 1,
+      "hits": []
+    },
+    {
+      "case": "servo-lift module into separate carrier",
+      "above_seat_mm": 2,
+      "hits": []
+    },
+    {
+      "case": "servo-lift module into separate carrier",
+      "above_seat_mm": 4,
+      "hits": []
+    },
+    {
+      "case": "servo-lift module into separate carrier",
+      "above_seat_mm": 8,
+      "hits": []
+    },
+    {
+      "case": "servo-lift module into separate carrier",
+      "above_seat_mm": 16,
+      "hits": []
+    },
+    {
+      "case": "servo-lift module into separate carrier",
+      "above_seat_mm": 24,
+      "hits": []
+    },
+    {
+      "case": "equipped carrier onto chassis",
+      "above_seat_mm": 0,
+      "hits": []
+    },
+    {
+      "case": "equipped carrier onto chassis",
+      "above_seat_mm": 0.5,
+      "hits": []
+    },
+    {
+      "case": "equipped carrier onto chassis",
+      "above_seat_mm": 1,
+      "hits": []
+    },
+    {
+      "case": "equipped carrier onto chassis",
+      "above_seat_mm": 2,
+      "hits": []
+    },
+    {
+      "case": "equipped carrier onto chassis",
+      "above_seat_mm": 4,
+      "hits": []
+    },
+    {
+      "case": "equipped carrier onto chassis",
+      "above_seat_mm": 8,
+      "hits": []
+    },
+    {
+      "case": "equipped carrier onto chassis",
+      "above_seat_mm": 16,
+      "hits": []
+    },
+    {
+      "case": "equipped carrier onto chassis",
+      "above_seat_mm": 24,
+      "hits": []
+    },
+    {
+      "case": "lid and guide pins last",
+      "above_seat_mm": 0,
+      "hits": []
+    },
+    {
+      "case": "lid and guide pins last",
+      "above_seat_mm": 0.5,
+      "hits": []
+    },
+    {
+      "case": "lid and guide pins last",
+      "above_seat_mm": 1,
+      "hits": []
+    },
+    {
+      "case": "lid and guide pins last",
+      "above_seat_mm": 2,
+      "hits": []
+    },
+    {
+      "case": "lid and guide pins last",
+      "above_seat_mm": 4,
+      "hits": []
+    },
+    {
+      "case": "lid and guide pins last",
+      "above_seat_mm": 8,
+      "hits": []
+    },
+    {
+      "case": "lid and guide pins last",
+      "above_seat_mm": 16,
+      "hits": []
+    },
+    {
+      "case": "lid and guide pins last",
+      "above_seat_mm": 24,
+      "hits": []
+    }
+  ],
+  "limits": [
+    "Nominal parts, sampled straight insertion paths; no tolerance Monte Carlo or continuous collision proof.",
+    "Screw/pilot overlaps explicitly represent unmodeled threads. Torque, pullout, supplier fit and printed material are not certified.",
+    "Servo-lift module must be assembled outside carrier; this does not validate the still-unconfirmed spline or adhesive joints.",
+    "Camera, battery and wiring envelopes remain provisional."
+  ],
+  "passed": true
+}

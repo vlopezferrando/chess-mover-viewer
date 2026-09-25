@@ -1,0 +1,8 @@
+component,reference_dimensions,nominal_fit,qualification
+N20 body,"12 mm wide, 10 mm high",12.3 mm saddle opening; .1 mm floor gap; .1 mm top shim,"Nominal proxy; winding, terminals, shaft/hub retention unselected"
+KST X06N,20 x 16.6 x 7 mm,.2 mm side clearance; .2 mm top pad (compressed),"Verify actual case, spline/horn, cable exit and clamping force"
+Battery,17.6 x 14.6 x 8 mm assumed design envelope,.1 mm shelf clearance and .1 mm roof clearance,Supplier maximum cycled cell and lead drawing required; preserve insulating gap
+Camera,6 x 6 sensor island; 5 mm lens diameter,6.4 x 6.4 nest; 5.4 mm lens clearance,"Sensor, lens, FPC and adhesive retention unselected"
+Wheel axles,3 mm diameter reference,3.2 mm printed bore,Ream/calibrate; bearing wear and positive end retention unresolved
+Lift guides,1.6 mm diameter metal reference,1.7 mm socket bore,"Bonding, straightness, wear and .4 mm socket wall require test"
+Lid screws,M1.6 x 16 DIN 912 reference,"1.8 clearance, 1.25 tap pilot, 5 mm engagement",Post-print tapping and pullout/preload coupon test required

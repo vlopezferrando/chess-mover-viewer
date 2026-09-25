@@ -1,0 +1,51 @@
+{
+  "build_source_sha256": "2df2caf67d86c894e33269bc1f662b3568c851f9160c8c98fcc54d1259e74bd6",
+  "stl": {
+    "lower_chassis": {
+      "triangles": 9704,
+      "nonmanifold_edges_at_1e_5_mm": 0,
+      "signed_volume_mm3": 2366.2443740913313,
+      "passed": true
+    },
+    "equipment_carrier": {
+      "triangles": 7084,
+      "nonmanifold_edges_at_1e_5_mm": 0,
+      "signed_volume_mm3": 2586.848293046262,
+      "passed": true
+    },
+    "lid": {
+      "triangles": 8070,
+      "nonmanifold_edges_at_1e_5_mm": 0,
+      "signed_volume_mm3": 1166.2528542886369,
+      "passed": true
+    },
+    "fit_coupon": {
+      "triangles": 6164,
+      "nonmanifold_edges_at_1e_5_mm": 0,
+      "signed_volume_mm3": 2362.2543880804196,
+      "passed": true
+    }
+  },
+  "step": {
+    "lower_chassis": {
+      "valid": true,
+      "solids": 1,
+      "outside_mm3": 0.0,
+      "passed": true
+    },
+    "equipment_carrier": {
+      "valid": true,
+      "solids": 1,
+      "outside_mm3": 0.0,
+      "passed": true
+    },
+    "lid": {
+      "valid": true,
+      "solids": 1,
+      "outside_mm3": 0.0,
+      "passed": true
+    }
+  },
+  "passed": true,
+  "limitations": "Watertight mesh and valid STEP do not certify minimum wall thickness, supports, print orientation or strength."
+}

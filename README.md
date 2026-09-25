@@ -14,3 +14,5 @@ Earlier designs: [stacked battery](battery-stacked.html), [plate-powered KST](43
 Nominal CAD validation passed; electrical performance, supplier-specific cell packaging, docking retention, optical performance and fabrication tolerances remain unqualified.
 
 Latest: [coplanar mover with wall rails](https://vlopezferrando.github.io/chess-mover-viewer/rail-dock/). See [rail concept](RAIL_DOCK.md) and [body/PCB readiness](BUILD_READINESS.md).
+
+Detailed body: [viewer](https://vlopezferrando.github.io/chess-mover-viewer/detailed-body/), [design notes](BODY_DESIGN.md), [supplier brief](BODY_PRINT_BRIEF.md). Ø44 × 21 mm fit prototype, not a manufacturing release.

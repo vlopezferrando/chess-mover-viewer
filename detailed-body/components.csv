@@ -1,0 +1,55 @@
+name,kind,source,note
+Right N20 motor,motor,Modified Pololu STEP,Motor winding/RPM unselected; shaft shortened.
+Right 31T motor pinion,gear,custom/provisional geometry,
+Right 31T wheel gear,gear,custom/provisional geometry,
+Right independent axle,shaft,custom/provisional geometry,Extended Ø3 axle envelope. Wheel/gear fixation and end retention remain unresolved; not a production shaft drawing.
+Right 13 mm wheel,wheel,custom/provisional geometry,Custom wheel; 150 mm/s not validated
+Left N20 motor,motor,Modified Pololu STEP,Motor winding/RPM unselected; shaft shortened.
+Left 31T motor pinion,gear,custom/provisional geometry,
+Left 31T wheel gear,gear,custom/provisional geometry,
+Left independent axle,shaft,custom/provisional geometry,Extended Ø3 axle envelope. Wheel/gear fixation and end retention remain unresolved; not a production shaft drawing.
+Left 13 mm wheel,wheel,custom/provisional geometry,Custom wheel; 150 mm/s not validated
+41 mm production PCB,pcb,custom/provisional geometry,Unrouted; separate pockets for battery and servo
+Coil 1,coil,custom/provisional geometry,Resonance not validated near metal components
+Coil 2,coil,custom/provisional geometry,Resonance not validated near metal components
+Coil 3,coil,custom/provisional geometry,Resonance not validated near metal components
+Coil 4,coil,custom/provisional geometry,Resonance not validated near metal components
+ESP32-S3 bare IC,electronics,custom/provisional geometry,
+Dual H-bridge allowance,electronics,custom/provisional geometry,
+Memory allowance,electronics,custom/provisional geometry,
+Charger protection and fuel-gauge area,power,custom/provisional geometry,"Reserved area, not a routed schematic"
+Boost converter and inductor allowance,power,custom/provisional geometry,Power/current/thermal qualification pending
+Camera sensor island,camera,custom/provisional geometry,
+Downward lens,camera,custom/provisional geometry,4 mm lens envelope retained; actual lens/focus not selected
+Camera FPC connector,flex,custom/provisional geometry,
+Camera ribbon,flex,custom/provisional geometry,
+100 mAh battery design envelope,battery,LiPol LPHD7214017 catalogue,Catalogue 17 x 14 x 7.2 mm; model adds .6 mm length/width and .8 mm thickness. Not supplier-certified tolerances.
+Battery termination allowance 6.6,battery_wire,custom/provisional geometry,Provisional 3 mm termination space; vendor lead/tab drawing required
+Battery termination allowance 12.6,battery_wire,custom/provisional geometry,Provisional 3 mm termination space; vendor lead/tab drawing required
+KST X06N tabless servo,servo,KST X06N manufacturer dimensions,"Factory tabless X06N, not a cut-down X06. Cradle retention remains provisional."
+Dock contact GND,dockpad,Custom concept; contact and magnet not qualified,"Nominal compressed leaf + rounded-tip allowance (tip rendered square). Custom spring geometry, not a selected component."
+Dock lead route GND,battery_wire,Custom concept; contact and magnet not qualified,Insulated wire/flex allowance
+Dock contact 5 V,dockpad,Custom concept; contact and magnet not qualified,"Nominal compressed leaf + rounded-tip allowance (tip rendered square). Custom spring geometry, not a selected component."
+Dock lead route 5 V,battery_wire,Custom concept; contact and magnet not qualified,Insulated wire/flex allowance
+Recessed docking magnet 3 x 1 mm,retention,Custom concept; contact and magnet not qualified,"Axially magnetized toward wall; size is a packaging placeholder, pull force unverified."
+Rear lift crank,cam,custom/provisional geometry,"Reference mechanism envelope only. Servo spline, crank-pin bore and positive pin retention require a manufactured subassembly; not included in body print pack."
+Captured rear pin,pin,custom/provisional geometry,"Reference mechanism envelope only. Servo spline, crank-pin bore and positive pin retention require a manufactured subassembly; not included in body print pack."
+Rear tray and captured yoke,lift,custom/provisional geometry,"Thin carrier, guides and pin retention still need structural design"
+N42 magnet 10 x 2,magnet,custom/provisional geometry,6 mm release conditional on Simulation 5 force/friction assumptions; 150 mm/s following not qualified
+Lower chassis with motor saddles,chassis,Custom first-detail CAD,Fit prototype; calibration and supplier review required
+Removable upper equipment carrier,bridge,Custom first-detail CAD,Fit prototype; calibration and supplier review required
+Screw-fastened lid,lid,Custom first-detail CAD,Fit prototype; calibration and supplier review required
+M1.6 x 16 underside screw 1,fastener,Custom first-detail CAD,"Nominal DIN 912 envelope; threads simplified. M1.6 tapped lid boss prototype joint, pullout test required."
+M1.6 x 16 underside screw 2,fastener,Custom first-detail CAD,"Nominal DIN 912 envelope; threads simplified. M1.6 tapped lid boss prototype joint, pullout test required."
+M1.6 x 16 underside screw 3,fastener,Custom first-detail CAD,"Nominal DIN 912 envelope; threads simplified. M1.6 tapped lid boss prototype joint, pullout test required."
+Servo compression pad -16,liner,Custom first-detail CAD,"Cut elastomer pad: .3 mm free, .2 mm modeled compressed. Preload to be measured."
+Servo compression pad 0,liner,Custom first-detail CAD,"Cut elastomer pad: .3 mm free, .2 mm modeled compressed. Preload to be measured."
+"Motor shim (-8, -6.17)",liner,Custom first-detail CAD,Nominal shim under carrier; compression/adhesive thickness must be measured.
+"Motor shim (-8, 6.17)",liner,Custom first-detail CAD,Nominal shim under carrier; compression/adhesive thickness must be measured.
+"Motor shim (8, -6.17)",liner,Custom first-detail CAD,Nominal shim under carrier; compression/adhesive thickness must be measured.
+"Motor shim (8, 6.17)",liner,Custom first-detail CAD,Nominal shim under carrier; compression/adhesive thickness must be measured.
+Anti-tip glide 1,liner,Custom first-detail CAD,"Cut low-friction pad, nominal .1 mm floor clearance; .05 mm adhesive allowance above. Not a caster or a validated traction model."
+Anti-tip glide 2,liner,Custom first-detail CAD,"Cut low-friction pad, nominal .1 mm floor clearance; .05 mm adhesive allowance above. Not a caster or a validated traction model."
+Anti-tip glide 3,liner,Custom first-detail CAD,"Cut low-friction pad, nominal .1 mm floor clearance; .05 mm adhesive allowance above. Not a caster or a validated traction model."
+Rear lift guide -6.7,support,custom/provisional geometry,
+Rear lift guide 6.7,support,custom/provisional geometry,

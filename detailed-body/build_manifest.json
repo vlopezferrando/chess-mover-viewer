@@ -1,0 +1,9 @@
+{
+  "build_source_sha256": "2df2caf67d86c894e33269bc1f662b3568c851f9160c8c98fcc54d1259e74bd6",
+  "nominal_envelope_mm": [
+    44,
+    44,
+    21
+  ],
+  "manufacturing_release": false
+}

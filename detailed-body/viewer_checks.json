@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "draw_calls": 1325,
+  "finite_uniform_checks": 10750,
+  "controls": [
+    "body parts",
+    "body exploded",
+    "up",
+    "down",
+    "midstroke",
+    "battery inspection",
+    "camera field",
+    "dock visibility",
+    "dock approach",
+    "along rail",
+    "gears",
+    "transmission",
+    "assembly",
+    "explode",
+    "views",
+    "orbit",
+    "zoom"
+  ],
+  "browser_rendering_tested": false
+}
