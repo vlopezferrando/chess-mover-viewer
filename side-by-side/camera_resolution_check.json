@@ -1,0 +1,20 @@
+[
+  {
+    "variant": "cad_09_battery",
+    "area_120_mm2": 61.71989052653599,
+    "area_240_mm2": 61.82807201427493,
+    "relative_change_pct": 0.17497147204260557
+  },
+  {
+    "variant": "cad_10_coplanar",
+    "area_120_mm2": 110.12243374835933,
+    "area_240_mm2": 110.10882898040269,
+    "relative_change_pct": 0.012355746657752036
+  },
+  {
+    "variant": "cad_11_bottom_battery",
+    "area_120_mm2": 125.45296652031752,
+    "area_240_mm2": 125.39344566050715,
+    "relative_change_pct": 0.0474672814809719
+  }
+]

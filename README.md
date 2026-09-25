@@ -1,11 +1,14 @@
-# Chess mover viewer
+# Chess mover CAD comparison
 
-[Open the current interactive viewer](https://vlopezferrando.github.io/chess-mover-viewer/).
+[Compare both layouts](https://vlopezferrando.github.io/chess-mover-viewer/).
 
-Current: 100 mAh battery mover, Ø43 × 25.2 mm, KST X06, 6 mm lift, front charging pads and a separate docking station. Use **Inspect battery** and **Show docking station**. The battery accounts for maximum cycled thickness; charging circuitry and dock contact mechanics remain provisional.
+- [A: battery beside servo — Ø43 × 21.0 mm](side-by-side/): compact 100 mAh catalogue cell, KST X06N and 13 mm wheels.
+- [B: battery below motors — Ø43 × 25.2 mm](bottom-battery/): Honcell 100 mAh cell and 20 mm wheels.
 
-[Design and validation report](BATTERY_DESIGN.md) · [Mover and dock STEP download](mover_step.zip) · [Dock preview](docking.png)
+Both retain 6 mm magnet travel, front charging pads and a separate dock. Camera position/opening are improved; the viewers include a camera-field inspection mode. STEP downloads are available in each viewer.
 
-Earlier viewers: [plate-powered KST](43mm-kst-plate.html), [43 mm FS0307](43mm-fs0307.html), [45 mm](45mm.html), [40 mm](40mm.html).
+[Design comparison, sources and validation](LAYOUT_COMPARISON.md).
 
-Offline HTML contains geometry and WebGL code; it requires no external scripts or CAD software. This is a nominal packaging prototype, not fabrication-ready CAD or demonstrated transport performance.
+Earlier designs: [stacked battery](battery-stacked.html), [plate-powered KST](43mm-kst-plate.html), [43 mm FS0307](43mm-fs0307.html), [45 mm](45mm.html), [40 mm](40mm.html).
+
+Nominal CAD validation passed; electrical performance, supplier-specific cell packaging, docking retention, optical performance and fabrication tolerances remain unqualified.

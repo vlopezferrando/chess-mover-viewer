@@ -1,0 +1,3 @@
+variant,diameter_mm,height_mm,floor_to_board_mm,wheel_diameter_mm,rpm_for_150_mm_s,battery_centre_z_mm,motor_axis_z_mm,servo_centre_z_mm,camera_height_mm
+side,43,21.0,21.2,13.0,220.3683827426243,15.6,5.9,16.5,12.8
+bottom,43,25.2,25.4,20.0,143.2394487827058,3.575,11.3,20.7,16.0

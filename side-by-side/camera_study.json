@@ -1,0 +1,71 @@
+[
+  {
+    "eye_mm": [
+      5,
+      -13.5,
+      11.9
+    ],
+    "assumed_fov_deg": [
+      60,
+      45
+    ],
+    "unclipped_floor_size_mm": [
+      13.74093640671309,
+      9.858282784479663
+    ],
+    "geometrically_visible_area_mm2": 61.82807201427493,
+    "visible_fraction": 0.45642361111111107,
+    "resolution": [
+      240,
+      240
+    ],
+    "method": "Perspective triangle silhouettes clipped between camera and floor; pixel-centre coverage. Camera body excluded; all other mover solids included. Straight rays, no optics qualification.",
+    "variant": "cad_09_battery"
+  },
+  {
+    "eye_mm": [
+      0,
+      -15.8,
+      12.8
+    ],
+    "assumed_fov_deg": [
+      60,
+      45
+    ],
+    "unclipped_floor_size_mm": [
+      14.780166891254417,
+      10.603867196751235
+    ],
+    "geometrically_visible_area_mm2": 110.10882898040269,
+    "visible_fraction": 0.7025520833333334,
+    "resolution": [
+      240,
+      240
+    ],
+    "method": "Perspective triangle silhouettes clipped between camera and floor; pixel-centre coverage. Camera body excluded; all other mover solids included. Straight rays, no optics qualification.",
+    "variant": "cad_10_coplanar"
+  },
+  {
+    "eye_mm": [
+      0,
+      -15.8,
+      16.0
+    ],
+    "assumed_fov_deg": [
+      60,
+      45
+    ],
+    "unclipped_floor_size_mm": [
+      18.47520861406802,
+      13.254833995939043
+    ],
+    "geometrically_visible_area_mm2": 125.39344566050715,
+    "visible_fraction": 0.5120486111111111,
+    "resolution": [
+      240,
+      240
+    ],
+    "method": "Perspective triangle silhouettes clipped between camera and floor; pixel-centre coverage. Camera body excluded; all other mover solids included. Straight rays, no optics qualification.",
+    "variant": "cad_11_bottom_battery"
+  }
+]
